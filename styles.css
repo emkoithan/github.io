@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: grey;
+  text-align: center;
+}
+
+div {
+  background-color: lightblue;
+  opacity: 0.6;
+}
+
+p {
+  font-family: Open Sans;
+  font-size: 20px;
+}
