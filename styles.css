@@ -2,18 +2,31 @@
 @keyframes slide {
   from {
     margin-left: 100%;
-    width: 300%; 
+    width: 100%; 
   }
   
-  75% {
-    font-size: 300%;
-    margin-left: 25%;
-    width: 150%;
+  0% {
+    color: red;
+  }
+  
+  20% {
+    color: red;
+  }
+  
+  40% {
+    color: yellow;
+  }
+  
+  60% {
+    color: green;
+  }
+  
+  80% {
+    color: blue;
   }
   
   to {
     margin-left: 0%;
-    width: 100%;
   }
 }
 
@@ -24,8 +37,8 @@ body {
 h1 {
   font-family: Open Sans;
   color: black;
-  text-align: center;
-  animation-duration: 3s;
+  text-align: left;
+  animation-duration: 7s;
   animation-name: slide;
 }
 
