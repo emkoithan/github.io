@@ -9,8 +9,7 @@
 }
 
 body {
-  background-image: url("giraffe.jpeg");
-  background-color: #cccccc;
+  background-color: black;
 }
 
 h1 {
@@ -20,7 +19,6 @@ h1 {
   animation-name: color_change;
   animation-duration: 10s;
   animation-iteration-count: infinite;
-  animation-direction: alternate-reverse;
 }
 
 p {
