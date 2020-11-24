@@ -4,27 +4,7 @@
     margin-left: 100%;
     width: 100%; 
   }
-  
-  0% {
-    color: red;
-  }
-  
-  20% {
-    color: red;
-  }
-  
-  40% {
-    color: yellow;
-  }
-  
-  60% {
-    color: green;
-  }
-  
-  80% {
-    color: blue;
-  }
-  
+
   to {
     margin-left: 0%;
   }
@@ -37,6 +17,7 @@ body {
 
 h1 {
   font-family: Open Sans;
+  margin-top: 50%
   color: black;
   text-align: left;
   animation-duration: 7s;
