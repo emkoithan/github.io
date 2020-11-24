@@ -31,7 +31,8 @@
 }
 
 body {
-  background-color: lightblue;
+  background-image: url("giraffe.jpeg");
+  background-color: #cccccc;
 }
 
 h1 {
