@@ -8,6 +8,15 @@
   100% {color: purple}
 }
 
+@keyframes background_change {
+  0% {background-color: red}
+  20% {background-color: orange}
+  40% {background-color: yellow}
+  60% {background-color: green}
+  80% {background-color: blue}
+  100% {background-color: purple}
+}
+
 body {
   background-color: black;
 }
@@ -25,4 +34,11 @@ h1 {
 p {
   font-family: Open Sans;
   font-size: 20px;
+}
+
+div {
+  animation-name: background_change;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  color: black;
 }
