@@ -37,8 +37,5 @@ p {
 }
 
 div {
-  animation-name: background_change;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
   color: black;
 }
