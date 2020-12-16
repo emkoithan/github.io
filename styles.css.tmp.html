@@ -4,20 +4,28 @@
   0% {color: red}
   20% {color: orange}
   40% {color: yellow}
-  60 {color: green}
-  80 {color: blue}
+  60% {color: green}
+  80% {color: blue}
   100% {color: purple}
 }
 
+@keyframes background_change {
+  0% {background-color: red}
+  20% {background-color: orange}
+  40% {background-color: yellow}
+  60% {background-color: green}
+  80% {background-color: blue}
+  100% {background-color: purple}
+}
+
 body {
-  background-image: url("giraffe.jpeg");
-  background-color: #cccccc;
+  background-color: black;
 }
 
 h1 {
   font-family: Open Sans;
   margin-top: 50%
-  text-align: left;
+  text-align: center;
   animation-name: color_change;
   animation-duration: 10s;
   animation-iteration-count: infinite;
@@ -27,4 +35,8 @@ h1 {
 p {
   font-family: Open Sans;
   font-size: 20px;
+}
+
+div {
+  color: black;
 }</style>
