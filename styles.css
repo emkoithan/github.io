@@ -18,21 +18,19 @@
 }
 
 body {
-  background-color: #faebd7;
-}
-
-form {
-  border: 3px solid #f1f1f1;
+  background-color: rgba(255, 99, 71, 0.3);
 }
 
 h1 {
   font-family: Open Sans;
-  margin-top: 50%
   text-align: center;
-  animation-name: color_change;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate-reverse;
+  color: black;
+}
+
+h2 {
+  font-family: Open Sans;
+  text-align: center;
+  color: black;
 }
 
 p {
@@ -42,6 +40,7 @@ p {
 
 div {
   color: black;
+  font-family: Open Sans;
 }
 
 input[type=text], input[type=password] {
@@ -54,7 +53,7 @@ input[type=text], input[type=password] {
 }
 
 button {
-  background-color: #4CAF50;
+  background-color: rgba(255, 99, 71, 0.3);
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -70,7 +69,6 @@ button:hover {
 .cancelbtn {
   width: auto;
   padding: 10px 18px;
-  background-color: #f44336;
 }
 
 .imgcontainer {
@@ -79,8 +77,8 @@ button:hover {
 }
 
 img.avatar {
-  width: 40%;
-  border-radius: 50%;
+  width: 20%;
+  border-radius: 25%;
 }
 
 .container {
